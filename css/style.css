@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*my code*/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.container div{
+    outline: 3px solid red;
+    
+}
+
+.first, .second, .third{
+    font-size: 0;
+    display: flex;
+}
+
+.first{
+    background: aqua;
+}
+.second{
+    background: lawngreen;
+}
+
+.third{
+    background: orange;
+}
+.card-1 {
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.first-block, .second-block {
+    font-size: 20px;
+    float: left;
+    width: 800px;
+
+}
+
+.second-block{
+    width: 400px;
+}
+.card-2 {
+    height: 200px;
+
+}
+
+.card-3 {
+    height: 133.3px;
+}
+
+.third > div{
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.third > div + div{
+    width: 800px;
+    height: auto;
+}
+
+.third-right-one{
+    height: 200px;
+}
+
+.third-right-two{
+    font-size: 0;
+    display: flex;
+}
+
+.third-right-two > div{
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.third-right-three{
+    height: 100px;
+}
